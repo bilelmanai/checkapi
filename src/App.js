@@ -4,7 +4,6 @@ import "./App.css";
 import UserList from "./UserList";
 const App = () => {
   const [listOfUSer, setListOfUSer] = useState([]);
-  const [err, setErr] = useState("");
   useEffect(() => {
     axios
       .get("https://jsonplaceholder.typicode.com/users")

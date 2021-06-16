@@ -1,5 +1,5 @@
 import React from "react";
-function UserList({ name, username, email, phone, website }) {
+function UserList({ name, username, email, phone }) {
   return (
     <div style={{ textAlign: "center" }}>
       <h3 style={{ color: "red" }}>
